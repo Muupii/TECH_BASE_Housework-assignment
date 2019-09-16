@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    width: 1000px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.btn {
+    position: relative;
+    border-radius: 4px;
+    margin:0 auto;
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: 0 3px 0 rgb(126, 126, 126);
+    user-select: none;
+}
+
+.btn:hover {
+    top: -4px;
+    box-shadow: 0 7px 0 rgb(126, 126, 126);
+}
+
+.btn:active {
+    top: 3px;
+    box-shadow: none;
+}
+
+.menu {
+    display: block;
+    width: 100px;
+    padding-top: 17px;
+}
+
+.list {
+    width: 500px;
+    text-align:left;
+    margin: 0 auto;
+}
+
+.calender_table {
+    width: 100%;
+}
+
+.calender_table th {
+    background: #EEEEEE;
+}
+
+.calender_table th,
+.calender_table td {
+    border: 1px solid #CCCCCC;
+    text-align: center;
+    padding: 5px;
+}
+
+.calender_wrap {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.family_list {
+    margin: 30px auto;
+}
+
+.calender_today {
+    background: aquamarine;
+}
+
+#housework {
+    width: 30%;
+}
+
+#housework_time {
+    display: none;
+}
+
+.housework_form {
+    width: 1000px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+#housework_noname_list {
+    border: inset;
+}
+
+.wrapper {
+    border: solid;
+    width: 1000px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.wrapper_inset {
+    border: inset;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#housework_noname_list ul {
+    display: none;
+}
+
+#housework_noname_list a:link {color:#0000ff;} /*未訪問のリンクの色*/
+#housework_noname_list a:visited {color:#00ccff;} /*訪問済みのリンクの色*/
+#housework_noname_list a:hover {color:#ffffff; background:#0000cc;} /*カーソルが乗っているリンクの色*/
+#housework_noname_list a:active {color:#ffff00;} /*クリック中のリンクの色*/
+
+.mini_title {
+    font-size: 25px;
+}
